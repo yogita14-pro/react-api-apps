@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Dancing+Script:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  height: 72px;
+  background-color: rgb(97, 12, 167);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+nav>h1{
+  color: white;
+  font-size: 40px;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+li{
+  text-decoration: none;
+  list-style: none;
+  margin: 20px;
+  border: 1px solid rgb(221, 179, 255);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body{
+  background-color: rgba(214, 164, 255, 0.603);
+}
+h1{
+  color: rgb(97, 12, 167);
+}
+.title{
+  color: rgb(97, 12, 167);
+}
+
+.pagination{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  margin-bottom: 5em;
+  font-size: 20px;
+}
+.pagination>span{
+  border: 1px solid rgb(182, 182, 182);
+  margin: 3px;
+  padding: 10px 20px;
+}
+.pagination>span:hover{
+  cursor: pointer;
+  background: rgb(189, 108, 255) !important;
+  border: 1px solid rgb(132, 115, 241);
+}
+#num{
+  background-color: white;
+}
+.company>p{
+  font-size: 30px;
+  color: rgb(189, 108, 255);
+  text-align: right;
+}
+
+.change-but{
+  background-color: rgb(97, 12, 167) !important; 
+  color: white;
+}
+.name{
+  font-family: "Baskervville SC", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.job{
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  padding: 0px 0 50px 0;
+}
+
